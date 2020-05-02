@@ -13,3 +13,7 @@ body {
 .card {
     opacity: .80;
 }
+
+.links {
+    color: rgb(255, 255, 255);
+}

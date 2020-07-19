@@ -11,7 +11,7 @@ body{
 nav{
     position: fixed;
     top: 20px;
-    left: 20px;
+    right: 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -21,7 +21,7 @@ nav a{
     text-decoration: none;
 }
 
-.icono{
+.access{
     text-align: center;
     width: 130px;
     color: #fff;
@@ -33,14 +33,14 @@ nav a{
     cursor: pointer;
     border-radius: 15px;
     border: none;
-    box-shadow: 0px 5px 0px 0px #6de9ff7a;
+    box-shadow: 0px 5px 0px 0px #18cbeb7a;
 }
-.icono:hover{
+.access:hover{
     box-shadow: none;
     transform: translateY(5px);
     transition: all .1s linear;
   }
-.icono:focus{
+.access:focus{
    outline: none;
 }
 
@@ -69,23 +69,23 @@ img{
     animation: arriba 1s ease-in;
 }
 
-.textos{
+.texts{
     width: 50%;
     color:#fff;
 }
 
-.textos h1{
+.texts h1{
     font-size:80px;
     animation: moverDerecha 1s ease-in;
 
 }
 
-.textos h2{
+.texts h2{
     font-size:30px;
     animation: moverIzquierda 1s ease-in;
 }
 
-.textos a{
+.texts a{
     display: inline-block;
     color:#fff;
     font-weight: 300;
@@ -108,7 +108,7 @@ img{
     background: linear-gradient(to right, #f8adff, #f987ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.enlaces{
+.links{
     position: fixed;
     display: flex;
     top: 0;
@@ -125,21 +125,21 @@ img{
     background: linear-gradient(to right, #a007f8, #8a4ebc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.uno{
+.one{
     
 -webkit-clip-path: circle(0% at 0 0);
 clip-path: circle(0% at 0 0);
 
 }
 
-.dos{
+.two{
     
     -webkit-clip-path: circle(150% at 0 0);
     clip-path: circle(150% at 0 0);
     
     }
 
-@keyframes moverIzquierda{
+@keyframes moveLeft{
     0%{
         opacity: 0;
         transform: translateX(-100px);
@@ -151,7 +151,7 @@ clip-path: circle(0% at 0 0);
     }
 }
 
-@keyframes moverDerecha{
+@keyframes moveRight{
     0%{
         opacity: 0;
         transform: translateX(100px);
@@ -163,7 +163,7 @@ clip-path: circle(0% at 0 0);
     }
 }
 
-@keyframes arriba{
+@keyframes up{
     0%{
         opacity: 0;
         transform: translateY(100px);
@@ -186,11 +186,11 @@ clip-path: circle(0% at 0 0);
     img{
         height: 370px;
     }
-    .textos h1{
+    .texts h1{
         font-size: 70px;
     }
 
-    .textos h2{
+    .texts h2{
         font-size: 25px;
     }
     
@@ -200,11 +200,11 @@ clip-path: circle(0% at 0 0);
     img{
         height: 250px;
     }
-    .textos h1{
+    .texts h1{
         font-size: 40px;
     }
 
-    .textos h2{
+    .texts h2{
         font-size: 15px;
     }
     
@@ -216,11 +216,11 @@ clip-path: circle(0% at 0 0);
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .textos{
+    .texts{
         width: 100%;
         text-align: center;
     }
-    .textos h1{
+    .texts h1{
         font-size: 60px;
     }    
 }
@@ -229,13 +229,13 @@ clip-path: circle(0% at 0 0);
     img{
         height: 160px;
     }
-    .textos h1{
+    .texts h1{
         font-size: 35px;
     }
-    .textos a{
+    .texts a{
         width: 120px;
     }
-    .textos h2{
+    .texts h2{
         font-size: 15px;
     }
     

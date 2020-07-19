@@ -1,15 +1,15 @@
-let boton = document.getElementById("icono");
-let enlaces = document.getElementById("enlaces");
-let contador = 0;
+let button = document.getElementById("access");
+let links = document.getElementById("links");
+let i = 0;
 
-boton.addEventListener("click", function(e){
+button.addEventListener("click", function(e){
     e.preventDefault();
-    if(contador==0){
-        enlaces.className = ("enlaces dos")
-        contador=1;
+    if(i==0){
+        links.className = ("links two")
+        i=1;
     }else{
-        enlaces.classList.remove("dos")
-        enlaces.className = ("enlaces uno")
-        contador=0;
+        links.classList.remove("two")
+        links.className = ("links one")
+        i=0;
     }
 })

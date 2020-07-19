@@ -25,7 +25,7 @@ nav a{
     text-align: center;
     width: 130px;
     color: #fff;
-    background: #efa7fd;
+    background: #ffaaf2;
     display: block;
     z-index: 100000000;
     animation: moverIzquierda 1s ease-in;
@@ -33,7 +33,7 @@ nav a{
     cursor: pointer;
     border-radius: 15px;
     border: none;
-    box-shadow: 0px 5px 0px 0px #18cbeb7a;
+    box-shadow: 0px 7px 0px 0px #4ee4ff7a;
 }
 .access:hover{
     box-shadow: none;
@@ -103,9 +103,9 @@ img{
 .wave{
     height: 100px;
     width: 100%;
-    background: #ee4bfd;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f560ee, #ff63e5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f8adff, #f987ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #f0ed2e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fd8c70, #e42cc5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #af96a8, #ffaaf2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .links{
@@ -127,8 +127,8 @@ img{
 
 .one{
     
--webkit-clip-path: circle(0% at 0 0);
-clip-path: circle(0% at 0 0);
+    -webkit-clip-path: circle(0% at 0 0);
+    clip-path: circle(0% at 0 0);
 
 }
 

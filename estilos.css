@@ -31,6 +31,10 @@ nav a{
     cursor: pointer;
     border-radius: 15px;
     border: none;
+    color: rgb(204, 146, 252);
+    background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     box-shadow: 0px 9px 0px 0px #924eff7a;
 }
 .access:hover{
@@ -40,18 +44,6 @@ nav a{
   }
 .access:focus{
    outline: none;
-}
-
-.access-one{
-    color: rgb(204, 146, 252);
-    background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
-    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-}
-
-.access-two{
-    color: rgb(204, 146, 252);
-    background:  rgb(252, 146, 252);
 }
 
 

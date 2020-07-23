@@ -6,6 +6,9 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
 nav{
@@ -48,9 +51,6 @@ nav a{
 
 
 header{
-    background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
-    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     height: auto;
     padding: 48px;
     width: 100%;
@@ -75,7 +75,7 @@ img{
 .avatar img{
     display: block;
     height: 200px;
-    opacity: .30;
+    opacity: .20;
 }
 
 .texts{
@@ -107,14 +107,6 @@ img{
     padding: 10px 0;
     animation: up 1s ease-in;
 
-}
-
-.wave{
-    height: 100px;
-    width: 100%;
-    background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
-    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
-    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
 .links{

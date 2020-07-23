@@ -72,6 +72,12 @@ img{
     animation: up 1s ease-in;
 }
 
+.avatar img{
+    display: block;
+    height: 200px;
+    opacity: .30;
+}
+
 .texts{
     width: 50%;
     color:rgb(204, 146, 252);

@@ -178,14 +178,16 @@ img{
 
 @media screen and (max-width:1000px){
     img{
-        height: 400px;
+        height: 100%;
+        width: 60%;
     }
 
 }
 
 @media screen and (max-width:800px){
     img{
-        height: 370px;
+        height: 100%;
+        width: 60%;
     }
     .texts h1{
         font-size: 70px;
@@ -199,7 +201,8 @@ img{
 
 @media screen and (max-width:700px){
     img{
-        height: 250px;
+        height: 100%;
+        width: 80%;
     }
     .texts h1{
         font-size: 40px;
@@ -212,6 +215,10 @@ img{
 }
 
 @media screen and (max-width:450px){
+    img{
+        height: 80%;
+        width: 80%;
+    }
     .container{
         width: 100%;
         flex-wrap: wrap-reverse;
@@ -228,7 +235,8 @@ img{
 
 @media screen and (max-width:340px){
     img{
-        height: 160px;
+        height: 80%;
+        width: 100%;
     }
     .texts h1{
         font-size: 35px;

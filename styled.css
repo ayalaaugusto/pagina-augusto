@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     background: radial-gradient(rgb(255, 157, 226) 3px, transparent 4px), radial-gradient(rgb(132, 130, 253) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
-nav{
+nav {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -19,12 +19,12 @@ nav{
     justify-content: flex-start;
 }
 
-nav a{
+nav a {
     color:#fff;
     text-decoration: none;
 }
 
-.access{
+.access {
     text-align: center;
     width: 130px;
     display: block;
@@ -40,23 +40,25 @@ nav a{
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     box-shadow: 0px 9px 0px 0px #924eff7a;
 }
-.access:hover{
+
+.access:hover {
     box-shadow: none;
     transform: translateY(5px);
     transition: all .1s linear;
-  }
-.access:focus{
+}
+
+.access:focus {
    outline: none;
 }
 
 
-header{
+header {
     height: auto;
     padding: 48px;
     width: 100%;
 }
 
-.container{
+.container {
     width: 95%;
     max-width: 1200px;
     display: flex;
@@ -65,36 +67,36 @@ header{
     margin: auto;
 }
 
-img{
+img {
     display: block;
     height: 450px;
     object-fit: cover;
     animation: up 1s ease-in;
 }
 
-.avatar img{
+.avatar img {
     display: block;
     height: 200px;
     opacity: .20;
 }
 
-.texts{
+.texts {
     width: 50%;
     color:rgb(204, 146, 252);
 }
 
-.texts h1{
+.texts h1 {
     font-size:80px;
     animation: moveRight 1s ease-in;
 
 }
 
-.texts h2{
+.texts h2 {
     font-size:30px;
     animation: moveLeft 1s ease-in;
 }
 
-.texts a{
+.texts a {
     display: inline-block;
     color:#fff;
     font-weight: 300;
@@ -109,7 +111,7 @@ img{
 
 }
 
-.links{
+.links {
     position: fixed;
     display: flex;
     top: 0;
@@ -126,71 +128,62 @@ img{
     background: linear-gradient(to right, #a007f8, #8a4ebc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.one{
-    
+.one {  
     -webkit-clip-path: circle(0% at 0 0);
     clip-path: circle(0% at 0 0);
-
 }
 
-.two{
-    
+.two {
     -webkit-clip-path: circle(150% at 0 0);
-    clip-path: circle(150% at 0 0);
-    
+    clip-path: circle(150% at 0 0);    
 }
 
-@keyframes moveLeft{
+@keyframes moveLeft {
     0%{
         opacity: 0;
         transform: translateX(-100px);
     }
-
     100%{
         opacity: 1;
         transform: translate(0);
     }
 }
 
-@keyframes moveRight{
+@keyframes moveRight {
     0%{
         opacity: 0;
         transform: translateX(100px);
     }
-
     100%{
         opacity: 1;
         transform: translate(0);
     }
 }
 
-@keyframes up{
+@keyframes up {
     0%{
         opacity: 0;
         transform: translateY(100px);
     }
-
     100%{
         opacity: 1;
         transform: translate(0);
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1000px) {
     img{
         height: 400px;
     }
-
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
     img{
         height: 300px;
     }
-
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     img{
         height: 300px;
     }
@@ -201,10 +194,9 @@ img{
     .texts h2{
         font-size: 20px;
     }
-    
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:700px) {
     img{
         height: 200px;
     }
@@ -214,11 +206,10 @@ img{
 
     .texts h2{
         font-size: 15px;
-    }
-    
+    } 
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:450px) {
     .container{
         width: 100%;
         flex-wrap: wrap-reverse;
@@ -233,7 +224,7 @@ img{
     }    
 }
 
-@media screen and (max-width:340px){
+@media screen and (max-width:340px) {
     img{
         height: 160px;
     }
